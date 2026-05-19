@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("https://blood-donation-list-backend.vercel.app/")
+      .get("https://blood-backend-gamma.vercel.app/")
       .then((response) => {
         setApi(response.data);
         setLoader(false);
